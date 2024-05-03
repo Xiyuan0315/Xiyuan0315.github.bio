@@ -1,0 +1,36 @@
+
+body {
+    margin: 3em auto;
+    max-width: 50em;
+    background-color: #cbe3f7;
+    }
+h2 {
+    margin-top: 1em;
+    /* padding-top: 1em; */
+    color:#333
+  }
+
+
+#right_aligned{
+    text-align: right;
+    font-size: small;
+}
+
+#center_aligned{
+    text-align: center;
+}
+
+.letter_container{
+    background-color: #f7e9cb;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align:left;
+    padding: 2em;
+}
+a{
+    padding: 2px 4px;
+    background-color: #eee;
+    color: black;
+    vertical-align: text-bottom
+}
