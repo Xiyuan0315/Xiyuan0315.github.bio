@@ -12,32 +12,41 @@
   type="image/x-icon"
 />
   <title> Chloe Zhang</title>
+  <script src="main.js" defer></script>
 </head>
 
 <body>
+  <div class="profile">
+    <div class="image">
+      <img src="asset/me.png">
+    </div>
+    <div class="text">
+    <h1>Chloe Zhang</h2>
+      <p>Msc. Student@Department of Mathematics and Statistics</p>
+      <p>University of Helsinki, Finland</p>
+      <ul>
+        <li>Courses</li>
+        <ul >
+          <li >Differential Equation: <a href="notes/ODE_review.html">Notes</a></li>
+    
+          <li >Computational Statistics: <a href="https://www.cs.helsinki.fi/u/ahonkela/teaching/compstats1/book/index.html">Lecture notes</a></li>
+          <li >Statistical population genetics: <a href="notes/Stat_pop_review.html" >Notes</a></li>
+          <li>Interative Data analysis</li>
+        </ul>
+        <li>Research</li>
+        <ul>
+            <li ><a href = './notes/Velovity.md'> RNA dynamics </a> </li>
+            <li>Differential expressed genes analysis of scRNA</li>
+        </ul>
+      </ul>
+    </div>
 
-  <h1>Chloe Zhang</h2>
-  <p>Msc. Student@Department of Mathematics and Statistics</p>
-  <p>University of Helsinki, Finland</p>
-  <ul>
-    <li>Courses</li>
-    <ul >
-      <li >Differential Equation</li>
+  </div>
 
-      <li >Computational Statistics: <a href="https://www.cs.helsinki.fi/u/ahonkela/teaching/compstats1/book/index.html">Lecture notes</a></li>
-      <li >Statistical population genetics: <a href="notes/Stat_pop_review.html" >Notes</a></li>
-      <li>Interative Data analysis</li>
-    </ul>
-    <li>Research</li>
-    <ul>
-        <li >RNA dynamics</li>
-        <li>Differential expressed genes analysis of scRNA</li>
-
-    </ul>
-  </ul>
+  <button id = "button">Show/Hide Random things</button>
+<div id="van_Gogh">
 <p>Random things about Van Gogh:</p>
-<!--Next goal deal with hide and show-->
-<!-- <button type="button" id="btn-my-toggle">Show</button> -->
+
   <img src="./asset/vanGogh_room.jpeg" alt = "Bedroom in Arle from Van Gogh" height="350">
  
   <p><strong>Vincent van Gogh (1853 - 1890), Arles, October 1888</strong></p>
@@ -46,12 +55,13 @@
   <p>Credits (obliged to state): Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</p>
   <p>More information could be found <a href="https://www.vangoghmuseum.nl/en/collection/s0047v1962">here</a></p>
   <p>Here is a <a href="letter.html" >letter </a>from Vincent Van Gogh to his brother Theo, wriiten in this yellow house</p>
+</div>
   <h3>Four seasons in Finland</h3>
   <span class="background">
     <section class="gallery">
       
       <section class="img-card">
-          <img src="/asset/photo/spring.jpg" alt="" />
+          <img src="./asset/photo/spring.jpg" alt="" />
       </section>
 
       <section class="img-card">
