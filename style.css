@@ -64,12 +64,18 @@ body {
     grid-template-columns: 1fr 1fr 80px;
     column-gap: 5px
 }
-.profile img{
+/* .profile img{
     margin-top: 1em;
     max-height: 40vh;
     height: auto;
     border-radius: 1em;
-}
+} */
+img {
+    margin-top: 1em;
+    max-height: 40vh;
+    height: auto;
+    border-radius: 1em;
+  }
 #van_Gogh{
     display: none;
 }
